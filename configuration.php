@@ -36,7 +36,7 @@ class JConfig {
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '1';
 	public $smtpuser = 'apikey';
-	public $smtppass = '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';
+	public $smtppass = '';
 	public $smtphost = 'smtp.sendgrid.net';
 	public $smtpsecure = 'tls';
 	public $smtpport = '587';
