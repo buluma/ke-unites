@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>Bottom Footer</name>
+	<author>Michael Buluma</author>
+	<version>3.0.0</version>
+	<creationDate>July 2017</creationDate>
+	<description>Bottom Footer - Social Media Links</description>
+	<files>
+		<filename>mod_bottom_footer.xml</filename>
+		<filename module="mod_bottom_footer">mod_bottom_footer.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="facebook_link" type="text" label="Facebook Link" description="Facebook Link"/>
+				<field name="twitter_link" type="text" label="twitter Link" description="Twitter Link"/>
+				<field name="linkedin_link" type="text" label="linkedin Link" description="Linkedin Link"/>
+				<field name="gplus_link" type="text" label="Google+ Link" description="Google+ Link"/>
+				<field name="youtube_link" type="text" label="YouTube Link" description="YouTube Link"/>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="Please enter Module Class Suffix"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
