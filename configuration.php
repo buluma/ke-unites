@@ -35,9 +35,9 @@ class JConfig {
 	public $fromname = 'Kenya Unites';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '1';
-	public $smtpuser = 'apikey';
+	public $smtpuser = '';
 	public $smtppass = '';
-	public $smtphost = 'smtp.sendgrid.net';
+	public $smtphost = '';
 	public $smtpsecure = 'tls';
 	public $smtpport = '587';
 	public $caching = '0';
